@@ -1,0 +1,5 @@
+The tests in this folder don't actually test many things specifically: the main
+body of the testing for this project was done along with the development. As 
+methods were completed they were copy/pasted, if possible, into the TCalMethodTest
+class and tested with various inputs there. The main body of the testing was done
+with the help of the GUI.

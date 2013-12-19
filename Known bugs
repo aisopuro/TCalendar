@@ -1,0 +1,12 @@
+Known bugs:
+
+	170411
+	-If an event overlaps midnight (starts one day and ends another) it will not
+	 be shown in the week view if the start is before monday 00:00.
+	
+	170411
+	-If a repeating event repeats so that it would have been cut short by its 
+	expiration, the event will not be shown at all.
+	
+	190411
+	-The JToolPanel to the right of the GUI is narrower than specified by default.

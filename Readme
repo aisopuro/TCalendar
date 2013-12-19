@@ -1,0 +1,45 @@
+The GUI can be run by compiling the source and running the RunGUI class.
+
+HowTo:
+
+NOTE: All dates should be entered as ddmm, ddmmyy, ddmmyyyy or dd.mm.yyyy
+
+WARNING: Importing .ics files built by other programs and then saving onto the
+same file will incur data loss: this program is far from fully compatible.
+
+WARNING: The program will not ask for confirmation when Saving/Loading/Deleting: 
+pressing the Delete button will Delete the specified event immediately and 
+loading a new calendar will automatically overwrite your current calendar.
+
+	In the File menu:
+		-New allows you to define a new event.
+		-Import allows you to import .ics files.
+		-Load allows you to load a preexisting .ics file. This will also overwrite
+		your current calendar: any unsaved progress will be lost.
+		-Save alows you to save your current calendar.
+		
+	On the menu bar:
+		-Previous, Current and Next: these buttons allow you to navigate weeks
+		-Go To Date: enter a date and press enter: the week view will show the 
+		week containing the date.
+		-Month View: Shows a list of all high priority events in the current 
+		month, and a summary of durations by category.
+		
+	On the week view:
+		-Events are shown as colored rectangles. The topmost part contains the 
+		category of the event and its start and end times.
+		-If several events overlap, the sides of the area where they overlap
+		will be colored red. 
+		-By clicking on the weekview, you can bring up a list of all the events
+		that are valid at the point of the click. You can then look at them more
+		closely or change them by clicking Edit. Delete will remove the event:
+		be warned, the program will not ask for confirmation.
+		
+	On the left side tool panel:
+		-If you are creating a new event, pressing the Apply button will create
+		a new event with the specified parameters. If you are editing an event,
+		pressing the Edit button will change the event in question and pressing
+		the Apply button will create a new event with the specified parameters.
+		WARNING: Pressing the Delete button will delete the event, not the 
+		occurrence: if the event is repeating, all of its occurrences will also
+		be removed.
